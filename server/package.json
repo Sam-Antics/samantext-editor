@@ -1,16 +1,17 @@
 {
-    "name": "JATE",
+    "name": "server",
     "version": "1.0.0",
     "description": "",
-    "main": "server.js",
+    "main": "index.js",
     "scripts": {
-        "server": "nodemon server.js --ignore client"
+        "server": "nodemon server.js --ignore client",
+        "start": "node server.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.1"
+        "express": "^4.18.1"
     },
     "devDependencies": {
         "nodemon": "^2.0.4"
