@@ -44,8 +44,8 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 ## Usage
-### Deployed Application Demonstration
-![Deployed application](#)
+### Deployed Application 
+[Application is Deployed on Heroku](https://samantext-editor.herokuapp.com/)
 
 ## Built With
 * JavaScript
