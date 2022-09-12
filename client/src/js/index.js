@@ -1,7 +1,7 @@
 // import functions
 import { Workbox } from 'workbox-window';
 import Editor from './editor';
-import './database';
+import {initDb } from './database';
 
 // import CSS & Bootstrap(?)
 import '../css/style.css';
