@@ -1,21 +1,17 @@
 const path = require('path');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const WebpackPwaManifest = require('webpack-pwa-manifest');
-const { InjectManifest } = require('workbox-webpack-plugin');
+// const WebpackPwaManifest = require('webpack-pwa-manifest');
+// const { InjectManifest } = require('workbox-webpack-plugin');
 
 // TODO: Add and configure workbox plugins for a service worker and manifest file.
 // ✅ Add CSS loaders and babel to webpack 
 
-module.exports = () => {
-  return {
+module.exports  = {
     mode: 'development',
-    entry: {
-      main: './src/js/index.js',
-      install: './src/js/install.js'
-    },
+    entry: "./src/js/index.js",
     output: {
-      filename: '[name].bundle.js',
+      filename: 'bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
     // webpack plugin to create index.html in the dist folder
@@ -50,5 +46,4 @@ module.exports = () => {
         }
       ],
     },
-  };
 };

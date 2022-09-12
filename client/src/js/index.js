@@ -1,7 +1,21 @@
+// import functions
 import { Workbox } from 'workbox-window';
 import Editor from './editor';
 import './database';
+
+// import CSS & Bootstrap
 import '../css/style.css';
+
+// import images
+import Logo from '../images/logo.png';
+import Favicon from '../images/favicon.ico';
+
+// on-load functionality (to import images into div for development)
+window.addEventListener('load', function() {
+
+  document.getElementById('logo').src = Logo;
+  document.getElementById('fav').src = Favicon;
+});
 
 const main = document.querySelector('#main');
 main.innerHTML = '';
