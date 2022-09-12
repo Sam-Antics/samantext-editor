@@ -48,6 +48,10 @@ THEN I should have proper build scripts for a webpack application
 ![Deployed application](#)
 
 ## Built With
+* JavaScript
+* Webpack
+* IndexedDB
+* Workbox
 
 ## Author
 **Samantha Guerra**
